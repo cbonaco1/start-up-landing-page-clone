@@ -52,12 +52,12 @@ table {
 
 
 /* good practice is to start designing with a border
-around all div's, and a light background color */
+around all div's, and a light background color 
 div {
 	border-style: solid;
 	border-width: 1px;
 }
-
+*/
 body {
 	background-color: LightGray;
 }
@@ -68,27 +68,38 @@ body {
 
 .top_nav > .content {
 	width: 970px;
-
 	/* this makes the content centered */
 	margin: 0 auto;
 }
 
-.nav_bar > li {
-	display: inline;
-	border-style: solid;
+.content {
+	padding: 0px 15px;
 }
 
-.login, .help, .blog, .store, .how, .meet  {
+.top_nav .links {
+	font-family: 'Roboto', sans-serif; 
+	font-size: 16px; 
+	color: #838994; 
+	letter-spacing: 0.03em;
 	float: right;
+	margin-top: 2em;
 }
 
-/*
-.nav_bar > .content > .nav_logo {
-	float: left;
-}
-
-.nav_bar > .content > .nav_links {
-	float: right;
+.top_nav .links > li {
 	display: inline;
+	padding-left: 3em;
 }
-*/
+
+.top_nav .links > li:hover {
+	font-weight: 600;
+	color: #4c5058;
+	cursor: pointer;
+	border-bottom-color: #4c5058;
+}
+
+
+/* ask kyle about this, when to use > or spaces */
+.top_nav .links > .active {
+	color:#4c5058;
+	font-weight: 600;
+}
