@@ -49,3 +49,46 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+/* good practice is to start designing with a border
+around all div's, and a light background color */
+div {
+	border-style: solid;
+	border-width: 1px;
+}
+
+body {
+	background-color: LightGray;
+}
+
+.top_nav {
+	background-color: #fff;
+}
+
+.top_nav > .content {
+	width: 970px;
+
+	/* this makes the content centered */
+	margin: 0 auto;
+}
+
+.nav_bar > li {
+	display: inline;
+	border-style: solid;
+}
+
+.login, .help, .blog, .store, .how, .meet  {
+	float: right;
+}
+
+/*
+.nav_bar > .content > .nav_logo {
+	float: left;
+}
+
+.nav_bar > .content > .nav_links {
+	float: right;
+	display: inline;
+}
+*/
