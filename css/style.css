@@ -63,10 +63,7 @@ body {
 .introduction > .content {
 	color: white;
 	text-align: center;
-
-	border-color: white;
-	border-style: solid;
-	border-width: 1px;
+	border:1px solid white;
 }
 
 .introduction > .content h1 {
@@ -87,6 +84,7 @@ body {
 	color:white;
 	cursor: pointer;
 	outline: none;
+	display: inline;
 }
 
 .learn_button {
