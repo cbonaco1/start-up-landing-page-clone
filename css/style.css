@@ -99,3 +99,8 @@ body {
 	border: none;
 	overflow: hidden;
 }
+
+.play_button {
+	padding-left: 1em;
+	padding-right: -2.0em;
+}
