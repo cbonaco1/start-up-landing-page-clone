@@ -49,9 +49,7 @@ body {
 	font-weight: 600;
 }
 
-/*-----------------------------*/
-
-/*--------Section rules ------*/
+/*--------Introduction Section rules ------*/
 
 .introduction {
 	background-image: url("..\\images\\code.jpg");
@@ -102,4 +100,23 @@ body {
 .play_button {
 	padding-left: 1em;
 	padding-right: -2.0em;
+}
+
+/*---- Cases Section styles --*/
+
+.cases {
+
+}
+
+.cases > .content {
+	text-align: center;
+	border: 2px solid blue;
+	width:100%;
+}
+
+.cases .devices {
+	width:25%;
+	display: inline-block;
+	box-sizing: border-box;
+	height: 7em;
 }
