@@ -1,0 +1,14 @@
+what is the difference between committing through the command line, and making a new repository, and then pushing an existing repository?
+I thought what we were committing to through the command line was the repository.
+
+
+-the section that is supposed to have the 3 icons (internet, coffee, and gas pump)
+setting the width to 33.333% didnt make it look nice, didnt seem like it was given 1/3 the space.
+-some of the sections are slightly above/below one another
+--> try no specified width/height
+
+when to use > or just list classes in CSS
+--can get by without using it
+--only applies to direct children (first child thats it, not recursive)
+
+media queries:

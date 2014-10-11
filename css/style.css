@@ -13,13 +13,27 @@ body {
 	letter-spacing: 0.03em;
 }
 
+/* rules used for all buttons */
+.content button {
+	padding:16px, 26px;
+	font-size: 18px;
+	line-height: 1.33;
+	border-radius: 4px;
+	width:155px;
+	height:57px;
+	color:white;
+	cursor: pointer;
+	outline: none;
+	text-align: center;
+}
+
 /* --- Header rules -- */
 .top_nav {
 	background-color: #fff
 }
 
 .content {
-	padding: 0px 15px;
+	padding: 0px 30px;
 	width: 970px;
 	/* this makes the content centered */
 	margin: 0 auto;
@@ -39,11 +53,9 @@ body {
 	font-weight: 600;
 	color: #4c5058;
 	cursor: pointer;
-	border-bottom-color: #4c5058;
+	border-bottom-color: black;
 }
 
-
-/* ask kyle about this, when to use > or spaces */
 .top_nav .links > .active {
 	color:#4c5058;
 	font-weight: 600;
@@ -53,7 +65,6 @@ body {
 
 .introduction {
 	background-image: url("..\\images\\code.jpg");
-	background-position: 0 bottom;
 	background-size: cover;
 	height: 600px;
 }
@@ -71,23 +82,8 @@ body {
 	font-weight: 400;
 }
 
-.introduction > .content > .buttons button {
-	padding:16px, 26px;
-	font-size: 18px;
-	line-height: 1.33;
-	border-radius: 4px;
-	width:155px;
-	height:57px;
-	color:white;
-	cursor: pointer;
-	outline: none;
-	display: inline;
-}
-
 .learn_button {
-	background-color: #d9400e;
-	text-align: center;
-	text-shadow:none;
+	background-color: #c1390d;
 	border: 1px solid transparent;
 }
 
@@ -102,21 +98,98 @@ body {
 	padding-right: -2.0em;
 }
 
+/*----------What is Karma section ---------*/
+.what_is_karma {
+	background-image: url("..\\images\\buy-now-bg.jpg");
+	background-size: cover;
+	height: 900px;
+	margin-bottom: 5em;
+}
+
+.what_is_karma .content {
+	max-width:323px;
+	padding-top:6em;
+	margin-left: 6em;
+}
+
+
+.what_is_karma .content p{
+	font-weight: 400;
+	font-size: 18px;
+}
+
+.what_is_karma .content h3{
+	color:#f05826
+}
+
+.what_is_karma button{
+	background-color: #d9400e;
+	border: 1px solid transparent;
+}
+
+.what_is_karma button:hover{
+	background-color:#a3300a;
+}
+
 /*---- Cases Section styles --*/
-
 .cases {
-
+	margin-bottom: 5em;
 }
 
 .cases > .content {
 	text-align: center;
-	border: 2px solid blue;
-	width:100%;
+	/*width:100%;*/
+	padding-bottom: 4em;
+	color:#4c5058;
+}
+
+.cases > .content h2{
+	padding-bottom: 2em;
 }
 
 .cases .devices {
-	width:25%;
+	width:30%;
 	display: inline-block;
 	box-sizing: border-box;
-	height: 7em;
+	height: 6em;
+}
+
+/*-----------Links-----------------*/
+
+.links {
+	text-align: center;
+}
+
+.links .list {
+	display: inline-block;
+	list-style-type: none;
+	text-align: left;
+	padding-right: 6em;
+	margin-top: 0em;
+}
+
+.links a:link{
+	color:#838994;
+	text-decoration: none;
+}
+
+.links a:hover{
+	color:#c1390d;
+}
+
+.links .list .list_title {
+	font-weight: 600;
+}
+
+.links .social_media_links > li {
+	display: inline-block;
+	margin-right: 4em;
+	border:1px solid gray;
+
+	padding:0.3em;
+
+	width: 50px;
+	
+				/* x, y */
+	border-radius: 50%;
 }
